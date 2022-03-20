@@ -1,7 +1,15 @@
 package cuentas;
 
+/**
+ *
+ * @author saram
+ */
 public class Main {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         operativa_cuenta();
 
@@ -11,6 +19,10 @@ public class Main {
         operativa_cuenta(cuenta1); */
     }
 
+    /**
+     * operativa_cuenta contiene los atributos cuenta1 (CCuenta), saldoActual (double) y cantidad (float)
+     * Se creará una cuenta con el nombre de la persona titular, su número, el saldo y el tipo de interés
+     */
     public static void operativa_cuenta() { //también vale private, le añado double saldoActual; y en los paréntesis CCuenta cuenta1
         CCuenta cuenta1;  //Si hubiera hecho operativa_cuenta de la otra manera, metería entre los () también float cantidad
         double saldoActual;
